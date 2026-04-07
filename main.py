@@ -18,3 +18,5 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
 print("Bot started...")
 
 app.run_polling()
+print("Bot started on server...")
+print("update")   # این خطو اضافه کن
