@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.getenv("8796614951:AAGc6BXbMdXy1UU2w3dEzYTMSVnQ48avRUs")
+TOKEN = os.getenv("8796614951:AAEXi-WiaaTDHgEOvNIjQlxubununrGdJ-M")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("سلام 👋 ربات روشن شد!")
